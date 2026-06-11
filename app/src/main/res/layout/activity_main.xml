@@ -5,8 +5,63 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:layout_gravity="center"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
 
+    <TextView
+        android:id="@+id/tVW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Bienvenid@"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteY="80dp" />
 
+    <EditText
+        android:id="@+id/tVW2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Nombre se usuario"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar sesión"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <EditText
+        android:id="@+id/tVW3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Contraseña"
+        android:textSize="16dp"
+        android:layout_marginTop="32dp"
+        tools:layout_editor_absoluteY="190dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="380dp"/>
+
+    <TextView
+        android:id="@+id/tVW4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿No tienes cuenta?"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="340dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
